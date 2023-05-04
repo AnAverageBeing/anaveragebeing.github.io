@@ -19,7 +19,7 @@ var messages = [
   'I love computers!',
   'I Use Arch Linux, BTW!',
   'I love anime uwu!',
-  'Coding is an art that a even monkey can learn!'
+  'Coding is a monkey art!'
 ];
 
 function typeMessages() {
