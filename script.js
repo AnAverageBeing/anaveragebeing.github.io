@@ -5,6 +5,8 @@ function updateTime() {
   document.getElementById('clock').textContent = timeString;
 }
 
+updateTime()
+
 setInterval(updateTime, 1000); // Update time every second
 
 var tw = new Typewriter('#typing-text', {
@@ -17,7 +19,7 @@ var messages = [
   'I love computers!',
   'I Use Arch Linux, BTW!',
   'I love anime uwu!',
-  'Coding is fun!'
+  'Coding is an art that a even monkey can learn!'
 ];
 
 function typeMessages() {
